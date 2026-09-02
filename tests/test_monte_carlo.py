@@ -108,3 +108,38 @@ def test_invalid_particle_number_for_uncertainty():
             transmission=0.5,
             number_of_particles=0
         )
+
+def test_transmission_uncertainty():
+
+    result = transmission_uncertainty(
+        0.5,
+        10000
+    )
+
+    expected = (
+        (0.5 * 0.5 / 10000) ** 0.5
+    )
+
+    assert result == pytest.approx(
+        expected
+    )
+
+
+def test_zero_transmission():
+
+    result = transmission_uncertainty(
+        0.0,
+        10000
+    )
+
+    assert result == 0.0
+
+
+def test_full_transmission():
+
+    result = transmission_uncertainty(
+        1.0,
+        10000
+    )
+
+    assert result == 0.0

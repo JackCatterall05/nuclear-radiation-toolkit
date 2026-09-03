@@ -1,0 +1,27 @@
+Results observations
+
+1. Linear attenuation coefficient (mu):
+Decreases with increasing energy.
+Greater at each energy for lead than concrete.
+Lead is the better absorber of radiation.
+Lines for concrete and lead get closer as energy increases showing factor between mu decreases with energy (log-log graph, hence factor difference).
+
+2. HVL:
+Increases with energy.
+Absorption is less effective as photon energy is greater, so greater thickness of material is required to reduce intensity by 50%.
+Concrete worse absorber so requires larger thickness. 
+Lines for concrete and lead get closer as energy increases showing factor between HVL decreases with energy (log-log graph, hence factor difference).
+
+4. Required shielding thickness:
+Same as for HVL, just greater thicknesses to reduce to 1%.
+Lines for concrete and lead get closer as energy increases showing factor between thicknesses decreases with energy (log-log graph, hence factor difference).
+
+5. Concrete/lead thickness ratio:
+General trend is for ratio to decrease with energy. 
+But in graph there is a minimum at 1.5 MeV.
+The values for the ratio for energies 1.25 MeV, 1.5 MeV and 2 MeV are close (4.99, 4.87 and 4.98). 
+The thickness values have a statistical nature, possibly explaining why the ratio appears lower at 1.5 MeV than 2 MeV.
+At energies greater than 1.25 MeV it is possible the ratio values level out and decrease at a sufficiently slow rate that the random nature of the thickness values could cause the ratio to be slightly lower at a lower energy. 
+We need to explore how the ratio develops at energies greater than 2 MeV.
+We need to take more data between 1.25 MeV and 2 MeV, especially if the ratio does increase after 2 MeV, to more precisely find the energy where the ratio is a minimum. 
+We should quantify the statistical errors so we know if the deviations are consistent with the errors.
